@@ -1,0 +1,97 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'oxanium', sans-serif;
+    background-color: black;
+    margin: 0 auto;
+}
+
+body::before {
+    content: '';
+    background: url(../images/bg-one-piece.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    max-height: 152px;
+}
+
+.fruit-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 156px);
+}
+
+.fruit-select .fruits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 585px; 
+    gap: 25px;
+}
+
+.fruit-select .fruits .title {
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid #f5c422;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.fruit-select .fruits .fruit-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.fruit-select .fruits .fruit-list .fruit img {
+    max-width: 123px;
+    height: 100%;
+}
+
+.fruit-select .fruits .fruit-list .fruit.selected {
+    box-shadow: 0px 0px 24px 5px #f5c422;
+}
+
+.fruit-selected {
+    text-align: center;
+    max-height: 530px;
+}
+
+.fruit-selected .fruit-draft {
+    max-width: 430px;
+    max-height: 430px;
+}
+
+.fruit-selected .fruit-name {
+    border-bottom: 2px solid #f5c422;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fruit-selected .fruit-description {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece - Akuma no mi Selection</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <img src="./src/images/logo.png" alt="Logo" />
+    </header>
+
+    <main class="fruit-select">
+      <section class="fruits">
+        <h1 class="title">Selecione uma Akuma no MI</h1>
+        <ul class="fruit-list">
+          <li class="fruit selected" id="luffy" data-name="Gomu Gomu no mi - Luffy" data-description="A Gomu Gomu no Mi, conhecida originalmente como Hito Hito no Mi, Modelo: Nika, é uma Akuma no Mi do tipo Zoan Mítica que permite ao usuário se transformar no lendário 'Deus do Sol' Nika e ganhar seus atributos, notavelmente um corpo com propriedades da borracha.">
+            <img src="./src/images/gomu-gomu.jpg" alt="Gomu Gomu" />
+          </li>
+
+          <li class="fruit" id="doflamingo" data-name="Ito Ito no mi - Doflamingo" data-description="Ito Ito no Mi é uma Akuma no Mi do tipo Paramecia que permite ao seu usuário criar e manipular fios extremamente finos ao olho nú.">
+            <img src="./src/images/ito-ito.jpg" alt="Ito Ito" />
+          </li>
+
+          <li class="fruit" id="kid" data-name="Jiki Jiki no mi - Captain Kid" data-description="A Jiki Jiki no Mi é uma Akuma no Mi do tipo Paramecia, que permite o usuário manipular as forças magnéticas e o metal a vontade.">
+            <img src="./src/images/jiki-jiki.jpg" alt="jiki Jiki" />
+          </li>
+
+          <li class="fruit" id="crocodile" data-name="Suna Suna no mi - Crocodile" data-description="A Suna Suna no Mi é uma Akuma no Mi do tipo Logia que permite ao usuário criar, controlar e se transformar em areia à vontade, podendo controlar os mais diversos tipos desta.">
+            <img src="./src/images/suna-suna.jpg" alt="Suna Suna" />
+          </li>
+
+          <li class="fruit" id="sabo-ace" data-name="Mera Mera no mi - Sabo (Ace)" data-description="A Mera Mera no Mi é uma Akuma no Mi do tipo Logia que permite ao usuário criar, controlar e se transformar em chamas à vontade.">
+            <img src="./src/images/mera-mera.jpg" alt="Mera Mera" />
+          </li>
+
+          <li class="fruit" id="law" data-name="Ope Ope no mi = Trafalgar Law" data-description="A Ope Ope no Mi é uma Akuma no Mi do tipo Paramecia que permite ao usuário criar um espaço esférico ou 'sala', no qual o usuário tem total controle sobre o posicionamento e orientação dos objetos dentro dele.">
+            <img src="./src/images/ope-ope.jpg" alt="Ope Ope" />
+          </li>
+
+          <li class="fruit" id="kaido" data-name="Uo Uo no Mi, Modelo: Seiryu - Kaido" data-description="A Uo Uo no Mi, Modelo: Seiryu é uma Akuma no Mi do tipo Zoan Mítica que permite ao usuário se transformar em uma forma híbrida e completa de um Dragão Azul.">
+            <img src="./src/images/uo-uo.jpg" alt="Uo Uo" />
+          </li>
+
+          <li class="fruit" id="smoker" data-name="Moku Moku no mi - Smoker" data-description="A Moku Moku no Mi é uma Akuma no Mi do tipo Logia que permite ao usuário criar, controlar e se transformar em fumaça.">
+            <img src="./src/images/moku-moku.jpg" alt="Moku Moku" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="fruit-selected">
+        <img
+          src="./src/images/luffy.png"
+          alt="Ciclope Escolhido"
+          class="fruit-draft"
+        />
+
+        <div class="fruits-info">
+          <h2 class="fruit-name" id="fruit-name">Gomu Gomu no mi - Luffy</h2>
+          <p class="fruit-description" id="fruit-description">
+            A Gomu Gomu no Mi, conhecida originalmente como Hito Hito no Mi, Modelo: Nika, é uma Akuma no Mi do tipo Zoan Mítica que permite ao usuário se transformar no lendário 'Deus do Sol' Nika e ganhar seus atributos, notavelmente um corpo com propriedades da borracha.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

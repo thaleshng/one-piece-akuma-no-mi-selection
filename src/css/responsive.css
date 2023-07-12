@@ -1,0 +1,39 @@
+@media (max-width: 1120px) {
+    .header img {
+        max-width: 190px;
+    }
+
+    .fruit-select {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .fruit-select .fruits {
+        margin-top: 37px;
+    }
+
+    .fruit-select .fruits .title {
+        font-size: 15px;
+    }
+
+    .fruit-select .fruits .fruit-list {
+        gap: 9px;
+    }
+
+    .fruit-select .fruits .fruit-list .fruit img {
+        width: 80px;
+    }
+
+    .fruit-selected .fruit-draft {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .fruit-selected .fruit-description {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+}
